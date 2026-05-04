@@ -11,6 +11,7 @@ class Item extends Model
     use SoftDeletes;
     protected $table='items';
     protected $fillable=[
+        'code_no',
         'name',
         'image',
         'price',

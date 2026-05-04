@@ -51,6 +51,7 @@
         @endforeach
            
         </div>
+        {{ $items->Links() }}
     </div>
 </section>
 @endsection
